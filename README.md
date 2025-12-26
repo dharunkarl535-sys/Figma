@@ -33,75 +33,85 @@ Publish the website in the given URL.
 Figma
 
 ## CODE:
-<!DOCTYPE html>
-<html>
+
+
+  <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Book Cover</title>
-<style>
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: 'Georgia', serif;
-}
+  <meta charset="UTF-8">
+  <title>Book Cover</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #6fb6df;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Georgia', serif;
+    }
 
-.cover {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: #000;
-    overflow: hidden;
-}
+    .book-cover {
+      width: 400px;
+      height: 600px;
+      background: rgb(103, 53, 70);
+      border: 2px solid #333;
+      padding: 40px 30px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
 
-.bg-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 0.7;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
+    .title {
+      font-size: 28px;
+      font-weight: bold;
+      color: #2e2e2e;
+      text-align: center;
+      line-height: 1.3;
+    }
 
-.content {
-    position: relative;
-    z-index: 1;
-    color: white;
-    text-align: center;
-    padding-top: 15%;
-}
+    .subtitle {
+      font-size: 16px;
+      margin-top: 10px;
+      text-align: center;
+      font-style: italic;
+    }
 
-.title {
-    font-size: 3.5em;
-    margin-bottom: 10px;
-    color: #fff;
-    text-shadow: 2px 2px 8px #000;
-}
+    .image {
+      flex: 1;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Simple_flowers_black_line_art.png') center/contain no-repeat;
+      margin: 30px 0;
+    }
 
-.subtitle {
-    font-size: 1.8em;
-    margin-bottom: 30px;
-    color: #ccc;
-}
+    .author {
+      font-size: 18px;
+      text-align: center;
+      color: #ee18fd;
+      margin-top: 20px;
+    }
 
-.author {
-    font-size: 1.2em;
-    font-style: italic;
-    color: #aaa;
-}
-
-</style>
+    .line {
+      height: 2px;
+      background: #f18686;
+      width: 50px;
+      margin: 10px auto;
+    }
+  </style>
 </head>
 <body>
-    <div class="cover">
-        <img src="{% static 'cover/images/bg.jpg' %}" class="bg-img" alt="Background">
-        <div class="content">
-            <h1 class="title">The Art of Django</h1>
-            <h3 class="subtitle">Mastering Web Development</h3>
-            <div class="author">by Jane Doe</div>
-        </div>
+  <div class="book-cover">
+    <div>
+      <div class="title">The Psychology of Simplicity</div>
+      <div class="line"></div>
+      <div class="subtitle">Understanding the beauty of less</div>
     </div>
+    <div class="image">
+        <img src="https://img.freepik.com/free-vector/flat-world-mental-health-day-background_23-2149634438.jpg?t=st=1744720480~exp=1744724080~hmac=f1760139b6a1644521a6843c7039f2b45bdc688d25f4f3a479e1d59dcfad5515&w=1380" length="10%" width="100%">
+    </div>
+    <div class="author">By Morgan Simplar</div>
+  </div>
 </body>
 </html>
 
