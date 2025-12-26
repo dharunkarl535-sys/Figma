@@ -1,4 +1,4 @@
-# Ex09 Event Registration Web Application
+<img width="1904" height="915" alt="Screenshot 2025-12-21 184247" src="https://github.com/user-attachments/assets/f6820c3a-ac22-4d63-8bb0-7fda8e2840ca" /># Ex09 Event Registration Web Application
 ## Date:
 
 ## AIM:
@@ -34,6 +34,7 @@ Figma
 
 ## CODE:
 
+book.html
 
 <!DOCTYPE html>
 <html lang="en">
@@ -44,7 +45,7 @@ Figma
     body {
       margin: 0;
       padding: 0;
-      background-color: #6fb6df;
+      background-color: #ffffff;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -55,7 +56,7 @@ Figma
     .book-cover {
       width: 400px;
       height: 600px;
-      background: rgb(103, 53, 70);
+      background: rgb(15, 25, 45);
       border: 2px solid #333;
       padding: 40px 30px;
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
@@ -67,7 +68,7 @@ Figma
     .title {
       font-size: 28px;
       font-weight: bold;
-      color: #2e2e2e;
+      color: #ffffff;
       text-align: center;
       line-height: 1.3;
     }
@@ -77,24 +78,40 @@ Figma
       margin-top: 10px;
       text-align: center;
       font-style: italic;
+      color: bisque;
     }
 
-    .image {
+     .image {
       flex: 1;
-      background: url('https://upload.wikimedia.org/wikipedia/commons/6/65/Simple_flowers_black_line_art.png') center/contain no-repeat;
       margin: 30px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .image img {
+      max-width: 75%;
+      height: auto;
+      object-fit: contain;
     }
 
     .author {
       font-size: 18px;
       text-align: center;
-      color: #ee18fd;
+      color: #6c96b6;
       margin-top: 20px;
+    }
+
+    .quote{
+      text-align: center;
+      font-size: 18px;
+      margin-top: 20px;
+      color: aquamarine;
     }
 
     .line {
       height: 2px;
-      background: #f18686;
+      background: #fdfcfc;
       width: 50px;
       margin: 10px auto;
     }
@@ -103,20 +120,27 @@ Figma
 <body>
   <div class="book-cover">
     <div>
-      <div class="title">The Psychology of Simplicity</div>
+      <div class="title">Fundamentals of Web Application and Development</div>
       <div class="line"></div>
-      <div class="subtitle">Understanding the beauty of less</div>
+      <div class="subtitle">A Beginner’s Guide to Building Modern Web Applications
+      </div>
     </div>
     <div class="image">
-        <img src="https://img.freepik.com/free-vector/flat-world-mental-health-day-background_23-2149634438.jpg?t=st=1744720480~exp=1744724080~hmac=f1760139b6a1644521a6843c7039f2b45bdc688d25f4f3a479e1d59dcfad5515&w=1380" length="10%" width="100%">
+        <img src="c:\Users\acer\OneDrive\Pictures\1356358.png">
     </div>
-    <div class="author">By Morgan Simplar</div>
+    <div class="quote">
+      An Amazing book to get strong in your fundamentals
+    </div>
+    <div class="author">By Dr.JaashikaVimalraj Ph.D</div>
   </div>
 </body>
 </html>
 
+
 ## OUTPUT:
-<img width="1758" height="921" alt="Screenshot 2025-10-08 210711" src="https://github.com/user-attachments/assets/6ef463dd-793f-4fee-9076-31e8aa36c6c5" />
+<img width="1904" height="915" alt="Screenshot 2025-12-21 184247" src="https://github.com/user-attachments/assets/55d4b45b-f1bf-46d3-af8e-a44814bea542" />
+
+
 
 
 ## RESULT:
