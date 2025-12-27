@@ -1,4 +1,4 @@
-<img width="1904" height="915" alt="Screenshot 2025-12-21 184247" src="https://github.com/user-attachments/assets/f6820c3a-ac22-4d63-8bb0-7fda8e2840ca" /># Ex09 Event Registration Web Application
+
 ## Date:
 
 ## AIM:
@@ -34,112 +34,93 @@ Figma
 
 ## CODE:
 
-book.html
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Book Cover</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      font-family: 'Georgia', serif;
-    }
-
-    .book-cover {
-      width: 400px;
-      height: 600px;
-      background: rgb(15, 25, 45);
-      border: 2px solid #333;
-      padding: 40px 30px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .title {
-      font-size: 28px;
-      font-weight: bold;
-      color: #ffffff;
-      text-align: center;
-      line-height: 1.3;
-    }
-
-    .subtitle {
-      font-size: 16px;
-      margin-top: 10px;
-      text-align: center;
-      font-style: italic;
-      color: bisque;
-    }
-
-     .image {
-      flex: 1;
-      margin: 30px 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    
-    .image img {
-      max-width: 75%;
-      height: auto;
-      object-fit: contain;
-    }
-
-    .author {
-      font-size: 18px;
-      text-align: center;
-      color: #6c96b6;
-      margin-top: 20px;
-    }
-
-    .quote{
-      text-align: center;
-      font-size: 18px;
-      margin-top: 20px;
-      color: aquamarine;
-    }
-
-    .line {
-      height: 2px;
-      background: #fdfcfc;
-      width: 50px;
-      margin: 10px auto;
-    }
-  </style>
-</head>
-<body>
-  <div class="book-cover">
-    <div>
-      <div class="title">Fundamentals of Web Application and Development</div>
-      <div class="line"></div>
-      <div class="subtitle">A Beginner’s Guide to Building Modern Web Applications
-      </div>
-    </div>
-    <div class="image">
-        <img src="c:\Users\acer\OneDrive\Pictures\1356358.png">
-    </div>
-    <div class="quote">
-      An Amazing book to get strong in your fundamentals
-    </div>
-    <div class="author">By Dr.JaashikaVimalraj Ph.D</div>
-  </div>
-</body>
-</html>
+<div class="Rectangle-16"></div>
+<div class="Screenshot-2025-09-20-224446-3"></div>
+<span class="LOGIN">
+  LOGIN
+</span>
+<span class="REGISTER">
+  REGISTER
+</span>
+<div class="images-1-3"></div>
+<span class="SPORTS-DAY-EVENTS">
+  SPORTS DAY EVENTS
+</span>
+<div class="Rectangle-17"></div>
+<div class="b6fbe26651d5ef86efd15f7bf30e0f7-7"></div>
+.Screenshot-2025-09-20-224446-3 {
+  width: 373px;
+  height: 99px;
+  margin: 17px 17px 70px 16px;
+}
+.images-1-3 {
+  width: 97px;
+  height: 97px;
+  margin: 70px 164px 18px 145px;
+}
+.SPORTS-DAY-EVENTS {
+  width: 260px;
+  height: 29px;
+  margin: 18px 34px 56px 112px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ff0a0a;
+}
+.Rectangle-16 {
+  width: 228px;
+  height: 67px;
+  margin: 56px 84px 32px 94px;
+  padding: 15px 69px 13px 59px;
+  background-color: #d9d9d9;
+}
+.LOGIN {
+  width: 100px;
+  height: 39px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.Rectangle-17 {
+  width: 222px;
+  height: 71px;
+  margin: 32px 87px 0 97px;
+  padding: 16px 31px 16px 30px;
+  background-color: #d9d9d9;
+}
+.REGISTER {
+  width: 161px;
+  height: 39px;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000;
+}
+.b6fbe26651d5ef86efd15f7bf30e0f7-7 {
+  width: 406px;
+  height: 653px;
+  padding: 0 0 97px;
+}
 
 
 ## OUTPUT:
-<img width="1904" height="915" alt="Screenshot 2025-12-21 184247" src="https://github.com/user-attachments/assets/55d4b45b-f1bf-46d3-af8e-a44814bea542" />
-
+<img width="1919" height="834" alt="499251356-2a8de88e-fbe9-41b0-b089-1ad89539bfb9" src="https://github.com/user-attachments/assets/ae0feeb7-7f1a-4a10-95bc-36b80cfa6387" />
 
 
 
